@@ -3,7 +3,6 @@ from tkinter import messagebox
 from tkinter import ttk
 import random as rn
 import pyperclip as pc
-import time
 
 SYMBOL_LIMIT = 1000
 SYMBOL_LIMIT2 = 50
