@@ -64,7 +64,8 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Authors
 
-- Your Name
+- @KrokoCoder
+- @LyubomirT
 
 ## Acknowledgments
 
