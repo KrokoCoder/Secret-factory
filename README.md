@@ -1,9 +1,72 @@
-# Secret-factory
+# Secret Factory
 
-The Secret Factory Password Generator is a program that allows users to generate passwords based on their desired parameters. With this program, users can specify the number of symbols and the type of symbols they want to include in their passwords. The generated passwords can be used for various purposes, such as securing online accounts or protecting sensitive information.
-The program utilizes a graphical user interface (GUI) built with Tkinter, a Python library for creating GUI applications. The user interface presents a simple and intuitive design, making it easy for users to interact with the program.
-Upon running the program, users are prompted to enter the number of symbols they want in their password. They can then choose the type of symbols from three options: numbers, letters, or other special characters. The program provides a visual representation of the selected symbol type.
-After the user clicks the "Generate" button, the program generates a password based on the specified parameters. The generated password is displayed on the screen, along with a label indicating that it is the user's password. The program ensures that the generated password meets the desired symbol count and type.
-If the user enters a number of symbols that exceeds the symbol limit or falls below a minimum limit, appropriate error messages are displayed to provide feedback.
-To use the generated password, the user can simply copy it from the program's interface. The program also includes a "Copy Password" button that allows the user to conveniently copy the generated password to the clipboard.
-The Secret Factory Password Generator provides a straightforward and customizable solution for generating passwords with different symbol types and lengths. It offers users a convenient way to create secure and unique passwords for their specific needs.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/KrokoCoder/Secret-factory/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.X-blue.svg)](https://www.python.org)
+[![Tkinter](https://img.shields.io/badge/tkinter-8.6-blue.svg)](https://docs.python.org/3/library/tkinter.html)
+[![Pyperclip](https://img.shields.io/badge/pyperclip-1.8-blue.svg)](https://pypi.org/project/pyperclip/)
+
+A password generator application built using Tkinter in Python.
+
+## Description
+
+Secret Factory is a simple password generator that allows you to generate random passwords based on specific criteria. It provides options to select the number of symbols and the types of symbols to include in the generated passwords.
+
+## Features
+
+- Generate multiple passwords at once
+- Specify the number of symbols for each password
+- Choose from different symbol types: numbers, lowercase letters, uppercase letters, and other symbols
+- Copy generated passwords to the clipboard
+
+## Requirements
+
+- Python 3
+- Tkinter 8.6 or higher
+- Pyperclip 1.8 or higher
+
+## Installation
+
+1. Clone the repository:
+
+```shell
+git clone https://github.com/your-username/secret-factory.git
+```
+
+2. Change into the project directory:
+
+```shell
+cd secret-factory
+```
+
+3. Install the required dependencies:
+
+```shell
+pip install -r requirements.txt
+```
+
+## Usage
+
+To run the Secret Factory password generator, execute the following command:
+
+```shell
+python secret_factory.py
+```
+
+The application window will appear with options to configure the password generation settings. Once you have selected the desired options, click the "Generate" button to generate passwords. The generated passwords will be displayed in the password list. You can copy individual passwords or multiple selected passwords to the clipboard using the "Copy" button.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please create a new issue or submit a pull request.
+
+## Authors
+
+- Your Name
+
+## Acknowledgments
+
+- This project was inspired by the need for a simple password generator tool.
+- Special thanks to the developers of Tkinter and Pyperclip for their amazing libraries.
