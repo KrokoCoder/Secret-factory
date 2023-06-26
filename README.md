@@ -24,7 +24,7 @@ Secret Factory is a simple password generator that allows you to generate random
 - Tkinter 8.6 or higher
 - Pyperclip 1.8 or higher
 
-## Installation
+## Installation (Source Code)
 
 1. Clone the repository:
 
@@ -44,13 +44,24 @@ cd secret-factory
 pip install -r requirements.txt
 ```
 
-## Usage
+## Installation (Build)
+
+1. Go to [Releases](https://github.com/KrokoCoder/Secret-factory/releases)
+2. Pick a release version
+3. Find a binary for your platform (for now only Windows is supported)
+4. Download the binary
+
+## Usage 
 
 To run the Secret Factory password generator, execute the following command:
 
 ```shell
 python secret_factory.py
 ```
+
+If you downloaded the binary, just run it.
+
+## How it works
 
 The application window will appear with options to configure the password generation settings. Once you have selected the desired options, click the "Generate" button to generate passwords. The generated passwords will be displayed in the password list. You can copy individual passwords or multiple selected passwords to the clipboard using the "Copy" button.
 
